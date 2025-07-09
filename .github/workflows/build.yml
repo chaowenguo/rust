@@ -9,7 +9,7 @@ jobs:
         strategy:
             fail-fast: false
             matrix:
-                color: [9, a]
+                proxyrack: [9, a]
         steps:
         - uses: actions/checkout@main
         - run: |
